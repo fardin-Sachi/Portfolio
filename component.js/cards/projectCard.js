@@ -1,28 +1,38 @@
 import Image from "next/image";
+import dummyImage from "@/public/me.png"
 
 export default function ProjectCard({projectList}) {
   return (
     
-        <div className="flex flex-col justify-around shadow-2xl rounded-2xl min-h-max px-8">
+        <div className="flex flex-col justify-between shadow-2xl rounded-2xl h-full min-h-[350px] sm:min-h-[400px] lg:min-h-[450px] px-4 sm:px-6 md:px-8 py-6 sm:py-8 gap-4">
 
-            <div className="flex justify-around">
+            <div className="flex justify-center">
                 <Image 
-                    className=""
+                    className="rounded-lg w-full object-cover h-[150px] sm:h-[180px] md:h-[200px]"
                     key={projectList.title}
                     src={projectList.image}
                     alt={projectList.title}
-                    height={50}
+                    // height={500}
+                    // width={500}
+                    unoptimized
                 />
             </div>
-            <div className="flex flex-col py-4 gap-y-2 min-h-52">
-                <p className="text-center text-3xl font-bold font-[pT_Serif_Caption]">{projectList.title}</p>
-                <p className="font-medium text-justify font-[poppins]">{projectList.description}</p>
+            <div className="flex flex-col gap-y-2 flex-grow">
+                <p className="text-center text-xl sm:text-2xl md:text-3xl font-bold font-[pT_Serif_Caption]">
+                    {projectList.title}
+                </p>
+                <p className="text-justify text-base sm:text-lg md:text-xl font-medium font-[poppins] overflow-hidden">
+                    {projectList.description}
+                </p>
             </div>
-            
-            <div className="flex justify-start pb-6 gap-x-4"> 
+
+            {/* Used technologies */}
+            <div className="flex flex-wrap justify-start gap-x-4 gap-y-2 pb-4"> 
                 {projectList.technologies.map(element => (
-                        <div key={element} className="shadow-2xl shadow-[#210F37] px-4 py-2 rounded-4xl">
-                            <p className="font-[poppins] font-medium">{element}</p>
+                        <div 
+                            key={element} 
+                            className="shadow-2xl shadow-[#210F37] px-4 py-2 rounded-full">
+                            <p className="text-sm sm:text-base md:text-lg font-[poppins] font-medium">{element}</p>
                         </div>
                 ))}
 

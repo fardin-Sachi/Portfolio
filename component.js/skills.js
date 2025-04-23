@@ -101,24 +101,43 @@ const logos = [
 export default function Skills() {
     // console.log(logos.find(logo=>logo.name === c))
   return (
-    <div id="skills" className='container mx-auto px-15 py-20'>
-        <div className="hover:scale-115 duration-300 pb-15">
-            <div className='flex justify-center'> 
-                <p className="text-5xl text-center font-bold font-[pT_Serif_Caption]">Skills</p>
+    <section 
+        id="skills" 
+        className='container mx-auto px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20 py-8 sm:py-12 md:py-16 lg:py-20'
+    >
+        <div className="hover:scale-115 duration-300 pb-6 sm:pb-10">
+            <div className='flex justify-center'>
+                <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold font-[pT_Serif_Caption]">Skills</p>
             </div>
             {/* <hr className='w-60 h-1 mx-auto bg-gray-400 border-0 rounded-sm ' /> */}
         </div>
-        <div className='grid grid-cols-3 gap-10'>
-            <SkillCard skillType={"Languages"} logos={[logos.find(logo=>logo.name === c), logos.find(logo=>logo.name === cPlusPlusLang), logos.find(logo=>logo.name === java), logos.find(logo=>logo.name === javascript), logos.find(logo=>logo.name === dart)]}/>
-                
-            <SkillCard skillType={"Libraries & Frameworks"} logos={[logos.find(logo=>logo.name === react), logos.find(logo=>logo.name === nextJs), logos.find(logo=>logo.name === nodeJs), logos.find(logo=>logo.name === angularJs), logos.find(logo=>logo.name === springBoot)]}/>
 
-            <SkillCard skillType={"Technologies and Databases"} logos={[logos.find(logo=>logo.name === html), logos.find(logo=>logo.name === tailwind), logos.find(logo=>logo.name === mongodb)]}/>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10'>
+            <SkillCard 
+                skillType={"Languages"} 
+                logos={[logos.find(logo=>logo.name === c), logos.find(logo=>logo.name === cPlusPlusLang), logos.find(logo=>logo.name === java), logos.find(logo=>logo.name === javascript), logos.find(logo=>logo.name === dart)]}
+            />
                 
-            <SkillCard skillType={"Development Tools"} logos={[logos.find(logo=>logo.name === vscode), logos.find(logo=>logo.name === postman), logos.find(logo=>logo.name === git)]}/>
+            <SkillCard 
+                skillType={"Libraries & Frameworks"} 
+                logos={[logos.find(logo=>logo.name === react), logos.find(logo=>logo.name === nextJs), logos.find(logo=>logo.name === nodeJs), logos.find(logo=>logo.name === angularJs), logos.find(logo=>logo.name === springBoot)]}
+            />
 
-            <SkillCard skillType={"Operating Systems"} logos={[logos.find(logo=>logo.name === windows), logos.find(logo=>logo.name === ubuntu), logos.find(logo=>logo.name === linux)]}/>
+            <SkillCard 
+                skillType={"Technologies and Databases"} 
+                logos={[logos.find(logo=>logo.name === html), logos.find(logo=>logo.name === tailwind), logos.find(logo=>logo.name === mongodb)]}
+            />
+                
+            <SkillCard 
+                skillType={"Development Tools"} 
+                logos={[logos.find(logo=>logo.name === vscode), logos.find(logo=>logo.name === postman), logos.find(logo=>logo.name === git)]}
+            />
+
+            <SkillCard 
+                skillType={"Operating Systems"} 
+                logos={[logos.find(logo=>logo.name === windows), logos.find(logo=>logo.name === ubuntu), logos.find(logo=>logo.name === linux)]}
+            />
         </div>
-    </div>
+    </section>
   )
 }

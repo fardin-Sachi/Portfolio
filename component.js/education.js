@@ -27,37 +27,40 @@ const institutions = [
 
 export default function Education() {
     return (
-      <div id="education" className="container mx-auto px-15 py-20">
-          <div className="flex justify-center mt-[3px] hover:scale-115 duration-300 pb-15">
-              <p className="text-5xl text-center font-bold font-[pT_Serif_Caption]">Education</p>
-          </div>
-  
-          <div>
-              <div className="flex shadow-2xl rounded-2xl py-10 px-10">
-                  <div className="w-7/10 pr-2">
-                      <div className="flex flex-col pb-3 gap-y-1">
-                          <p className="text-justify font-[pT_Serif_Caption] text-3xl font-bold ">{institutions[0].name}</p>
-                          <p className="text-justify font-[pT_Serif_Caption] font-medium text-2xl">{institutions[0].degree}</p>
-                      </div>
-                      <div className="flex flex-col">
-                        <div className="flex">
-                          <p className="font-bold font-[poppins]">{institutions[0].resultType}:</p>
-                          <p className="font-[poppins]">&nbsp;{institutions[0].result}</p>
+        <section 
+            id="education" 
+            className="container mx-auto px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20 py-8 sm:py-12 md:py-16 lg:py-20"
+        >
+            <div className="flex justify-center mt-2 hover:scale-115 duration-300 pb-6 sm:pb-8 md:pb-10">
+                <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold font-[pT_Serif_Caption]">Education</p>
+            </div>
+            <div className="grid gap-8">
+                <div className="flex flex-col lg:flex-row shadow-2xl rounded-2xl py-6 sm:py-8 md:py-10 px-6 sm:px-8 md:px-10 gap-4">
+                    <div className="lg:w-7/12">
+                        <div className="flex flex-col pb-3 gap-y-2">
+                            <p className="text-xl sm:text-2xl md:text-3xl font-bold font-[pT_Serif_Caption]">{institutions[0].name}</p>
+                            <p className="text-lg sm:text-xl md:text-2xl font-medium font-[pT_Serif_Caption]">{institutions[0].degree}</p>
                         </div>
-                        <div className="flex">
-                          <p className="font-bold font-[poppins]">Thesis Title:</p>
-                          <p className="font-[poppins]">&nbsp;{institutions[0].additionalInfo.thesisTitle}</p>
+                        <div className="flex flex-col gap-y-2">
+                            <div className="flex">
+                                <p className="font-bold font-[poppins]">{institutions[0].resultType}:</p>
+                                <p className="font-[poppins]">&nbsp;{institutions[0].result}</p>
+                            </div>
+                            
+                            <div className="flex">
+                                <p className="font-bold font-[poppins]">Thesis Title:</p>
+                                <p className="font-[poppins]">&nbsp;{institutions[0].additionalInfo.thesisTitle}</p>
+                            </div>
                         </div>
-                      </div>
-                  </div>
-                  <div className="flex flex-col mx-auto w-auto">
-                      <p className="text-justify font-[pT_Serif_Caption] text-lg">{institutions[0].location}</p>
-                      <p className="text-justify font-[pT_Serif_Caption] text-lg">January 2020 - January 2025</p>
-                  </div>
-              </div>
-          </div>
-          
-      </div>
+                    </div>
+
+                    <div className="flex flex-col lg:w-5/12 justify-center">
+                        <p className="text-base sm:text-lg md:text-xl text-center lg:text-left font-[pT_Serif_Caption]">{institutions[0].location}</p>
+                        <p className="text-base sm:text-lg md:text-xl text-center lg:text-left font-[pT_Serif_Caption]">January 2020 - January 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     )
   }
   
