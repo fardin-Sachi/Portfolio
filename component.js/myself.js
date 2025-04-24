@@ -52,9 +52,9 @@ export default function Myself() {
         </div>
 
         {/* My photo */}
-        <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center items-center lg:place-self-end">
+        <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center items-center">
             <Image 
-                className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96"
+                className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full"
                 // w-40 h-40 sm:w-52 sm:h-52 md:2-64 md:h-64 lg:w-80 lg:h-80
                 src={happyMe}
                 alt="Fardin Ahsan"

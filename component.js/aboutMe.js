@@ -19,7 +19,7 @@ export default function AboutMe() {
             <div className="shadow-2xl shadow-[#210F37] px-4 py-2 sm:px-6 md:py-3 rounded-xl">
                 <a 
                   target='_blank' 
-                  href={"https://drive.google.com/file/d/1xuE2z4uBoFkh6ayIMs9KpXpu0IkGX7cl/view?usp=sharing"}>
+                  href={"https://drive.google.com/file/d/10xtrxLq_x040WRqJTDnCdbZ5_S8im6Yw/view?usp=sharing"}>
                     <p className="sm:text-base md:text-xl lg:text-2xl font-[pT_Serif_Caption] font-medium"> Here&apos;s My Resume</p>
                 </a>
             </div>
