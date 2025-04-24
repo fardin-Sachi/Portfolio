@@ -1,5 +1,6 @@
 import Image from "next/image";
 import dummyImage from "@/public/me.png"
+import Techs from "./techs";
 
 export default function ProjectCard({projectList}) {
   return (
@@ -14,7 +15,8 @@ export default function ProjectCard({projectList}) {
                     alt={projectList.title}
                     // height={500}
                     // width={500}
-                    unoptimized
+                    // unoptimized
+                    unoptimized={!projectList.imageOptimization}
                 />
             </div>
             <div className="flex flex-col gap-y-2 flex-grow">
@@ -29,11 +31,7 @@ export default function ProjectCard({projectList}) {
             {/* Used technologies */}
             <div className="flex flex-wrap justify-start gap-x-4 gap-y-2 pb-4"> 
                 {projectList.technologies.map(element => (
-                        <div 
-                            key={element} 
-                            className="shadow-2xl shadow-[#210F37] px-4 py-2 rounded-full">
-                            <p className="text-sm sm:text-base md:text-lg font-[poppins] font-medium">{element}</p>
-                        </div>
+                        <Techs key={element} tech={element}/>
                 ))}
 
             </div>

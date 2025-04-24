@@ -16,13 +16,13 @@ export default function AboutMe() {
           Beyond technical skills, I have demonstrated exceptional leadership abilities through active roles in student organizations, where I honed my skills in collaboration, problem-solving, and project management. With a passion for continuous learning, I strive to stay updated with evolving technologies and apply my knowledge to make a meaningful impact in the tech industry.
         </p>
         <div className="flex justify-center">
-            <div className="shadow-2xl shadow-[#210F37] px-4 py-2 sm:px-6 md:py-3 rounded-xl">
-                <a 
-                  target='_blank' 
-                  href={"https://drive.google.com/file/d/10xtrxLq_x040WRqJTDnCdbZ5_S8im6Yw/view?usp=sharing"}>
+            <a 
+              target='_blank' 
+              href={"https://drive.google.com/file/d/10xtrxLq_x040WRqJTDnCdbZ5_S8im6Yw/view?usp=sharing"}>
+                <div className="shadow-2xl shadow-[#210F37] px-4 py-2 sm:px-6 md:py-3 rounded-xl">
                     <p className="sm:text-base md:text-xl lg:text-2xl font-[pT_Serif_Caption] font-medium"> Here&apos;s My Resume</p>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
       </div>
     </section>

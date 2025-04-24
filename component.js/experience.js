@@ -1,3 +1,5 @@
+import Techs from "./cards/techs";
+
 export default function Experience() {
   return (
     <section id="experience" className="container mx-auto px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20 py-8 sm:py-12 md:py-16 lg:py-20">
@@ -8,10 +10,6 @@ export default function Experience() {
             <div className="flex flex-col lg:flex-row shadow-2xl rounded-2xl py-6 sm:py-8 md:py-10 px-4 sm:px-6 md:px-8 lg:px-10 gap-6 lg:gap-10">
                 <div className="lg:w-7/12 pr-0 lg:pr-6">
                     <div className="flex flex-col pb-3 gap-y-2">
-
-
-
-
                         <p className="text-2xl sm:text-3xl md:text-4xl font-[pT_Serif_Caption] font-bold ">Appstick</p>
                         <p className="text-xl sm:text-2xl md:text-3xl font-medium font-[pT_Serif_Caption]">Web Developer Intern</p>
                     </div>
@@ -24,12 +22,8 @@ export default function Experience() {
                         </li>
                     </div>
                     <div className="flex justify-start pt-4 gap-x-3 sm:gap-x-4">
-                        <div className="shadow-2xl shadow-[#210F37] px-4 py-2 sm:px-5 sm:py-3 rounded-full cursor-pointer">
-                            <p className="text-sm sm:text-base md:text-lg font-[poppins] font-medium">Next.js</p>
-                        </div>
-                        <div className="shadow-2xl shadow-[#210F37] px-4 py-2 sm:px-5 sm:py-3 rounded-full cursor-pointer">
-                            <p className="text-sm sm:text-base md:text-lg font-[poppins] font-medium">Tailwind CSS</p>
-                        </div>
+                        <Techs tech={"Next.js"}/>
+                        <Techs tech={"Tailwind CSS"} />
                     </div>
                 </div>
                 <div className="flex flex-col md:w-5/12 mx-auto lg:mx-0 w-full lg:w-auto">

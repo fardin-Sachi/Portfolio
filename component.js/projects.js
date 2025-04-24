@@ -10,7 +10,7 @@ const projectLists = [
     {
         title: "Arochi Interiors",
         image: arochiInteriors,
-        imageOptimized: true,
+        imageOptimization: false,
         description: "Designed a modern and user-friendly landing page with optimized design, focusing on performance and accessibility.",
         technologies: [
             "Next.js", "Tailwind CSS"
@@ -19,7 +19,7 @@ const projectLists = [
     {
         title: "Apartment Hunt",
         image: ApartmentHunt,
-        imageOptimized: false,
+        imageOptimization: false,
         description: "Engineered a web-based rental platform with Next.js, incorporating advanced search filters and interactive maps, facilitating a faster property discovery process for prospective tenants.",
         technologies: [
             "Next.js", "Tailwind CSS"
@@ -28,7 +28,7 @@ const projectLists = [
     {
         title: "Orbit",
         image: orbit,
-        imageOptimized: false,
+        imageOptimization: true,
         description: "An e-commerce website dedicated to books, providing a platform for users to browse and purchase various books.",
         technologies: [ 
             "React", "Node.js", "Express.js", "MongoDB Atlas"
@@ -37,7 +37,7 @@ const projectLists = [
     {
         title: "Task Manager",
         image: taskManager,
-        imageOptimized: false,
+        imageOptimization: true,
         description: "A task management application featuring a frontend developed with Angular and a backend powered by Spring Boot. It aims to provide users with an efficient platform to organize and track their tasks effectively.",
         technologies: [
             "AngularJS", "Spring Boot"
@@ -46,7 +46,7 @@ const projectLists = [
     {
         title: "Video Trimmer",
         image: Video_Trimmer,
-        imageOptimized: false,
+        imageOptimization: false,
         description: "A video editing tool designed to trim videos efficiently, developed as part of an academic project. It provides users with an intuitive interface to select and cut video segments, ensuring a user-friendly experience.",
         technologies: [
             "Java", "JavaFX"
