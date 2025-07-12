@@ -9,6 +9,8 @@ import Video_Trimmer from "@/public/Projects/Video_Trimmer.gif"
 const projectLists = [
     {
         title: "Arochi Interiors",
+        githubLink: "https://github.com/fardin-Sachi/Arochi-Interiors",
+        liveLink: "https://arochi-interiors.onrender.com/",
         image: arochiInteriors,
         imageOptimization: false,
         description: "Designed a modern and user-friendly landing page with optimized design, focusing on performance and accessibility.",
@@ -18,6 +20,8 @@ const projectLists = [
     },
     {
         title: "Apartment Hunt",
+        githubLink: "https://github.com/fardin-Sachi/Apartment_Hunt",
+        liveLink: null,
         image: ApartmentHunt,
         imageOptimization: false,
         description: "Engineered a web-based rental platform with Next.js, incorporating advanced search filters and interactive maps, facilitating a faster property discovery process for prospective tenants.",
@@ -27,6 +31,8 @@ const projectLists = [
     },
     {
         title: "Orbit",
+        githubLink: "https://github.com/fardin-Sachi/Orbit",
+        liveLink: null,
         image: orbit,
         imageOptimization: true,
         description: "An e-commerce website dedicated to books, providing a platform for users to browse and purchase various books.",
@@ -36,6 +42,8 @@ const projectLists = [
     },
     {
         title: "Task Manager",
+        githubLink: "https://github.com/fardin-Sachi/Task-Manager",
+        liveLink: null,
         image: taskManager,
         imageOptimization: true,
         description: "A task management application featuring a frontend developed with Angular and a backend powered by Spring Boot. It aims to provide users with an efficient platform to organize and track their tasks effectively.",
@@ -45,6 +53,8 @@ const projectLists = [
     },
     {
         title: "Video Trimmer",
+        githubLink: "https://github.com/fardin-Sachi/VideoEditor",
+        liveLink: null,
         image: Video_Trimmer,
         imageOptimization: false,
         description: "A video editing tool designed to trim videos efficiently, developed as part of an academic project. It provides users with an intuitive interface to select and cut video segments, ensuring a user-friendly experience.",

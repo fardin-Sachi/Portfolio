@@ -18,7 +18,7 @@ export default function Activities() {
                                 href="https://www.facebook.com/CLUSTER.KU"
                                 rel="noopener noreferrer"
                             >
-                                <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold font-[pT_Serif_Caption]">CLUSTER, Khulna University</p>
+                                <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold font-[pT_Serif_Caption] ">CLUSTER, Khulna University</p>
                                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium font-[pT_Serif_Caption]">President</p>
                             </a>
                         </div>
@@ -29,7 +29,7 @@ export default function Activities() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center md:w-5/12">
+                    <div className="flex flex-col justify-start md:w-5/12">
                         <p className="text-base sm:text-lg md:text-xl text-center md:text-left font-[pT_Serif_Caption]">Khulna-9208, Khulna</p>
                         <p className="text-base sm:text-lg md:text-xl text-center md:text-left font-[pT_Serif_Caption]">March 2024 – February 2025</p>
                     </div>
@@ -56,7 +56,7 @@ export default function Activities() {
                         
                     </div>
 
-                    <div className="flex flex-col justify-center md:w-5/12">
+                    <div className="flex flex-col justify-start md:w-5/12">
                         <p className="text-base sm:text-lg md:text-xl text-center md:text-left font-[pT_Serif_Caption]">Khulna-9208, Khulna</p>
                         <p className="text-base sm:text-lg md:text-xl text-center md:text-left font-[pT_Serif_Caption]">February 2024 – February 2025</p>
                     </div>

@@ -6,7 +6,8 @@ const institutions = [
         resultType: "CGPA",
         result: "3.45/4.00",
         additionalInfo: {
-            thesisTitle: "Blockchain-based Official Document Attestation Network"
+            thesisTitle: "Blockchain-based Official Document Attestation Network",
+            thesisDesc: "Researched on a blockchain-based system that can eradicate the predicament of counterfeiting official documents along with the attestation system.significantly improving the authentication, authorization, confidentiality, privacy, and ownership in processing and validating official documents."
         }
     },
     {
@@ -51,10 +52,11 @@ export default function Education() {
                                 <p className="font-bold font-[poppins]">Thesis Title:</p>
                                 <p className="font-[poppins]">&nbsp;{institutions[0].additionalInfo.thesisTitle}</p>
                             </div>
+                            <p className="font-[poppins] text-sm pl-24 text-justify">{institutions[0].additionalInfo.thesisDesc}</p>
                         </div>
                     </div>
 
-                    <div className="flex flex-col lg:w-5/12 justify-center">
+                    <div className="flex flex-col lg:w-5/12 justify-start">
                         <p className="text-base sm:text-lg md:text-xl text-center lg:text-left font-[pT_Serif_Caption]">{institutions[0].location}</p>
                         <p className="text-base sm:text-lg md:text-xl text-center lg:text-left font-[pT_Serif_Caption]">January 2020 - January 2025</p>
                     </div>

@@ -33,7 +33,15 @@ export default function ProjectCard({projectList}) {
                 {projectList.technologies.map(element => (
                         <Techs key={element} tech={element}/>
                 ))}
-
+            </div>
+            {/* Links */}
+            <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-shadow text-sm font-bold"> 
+                {projectList.githubLink? 
+                    <a href={projectList.githubLink} className="">Source Code</a>
+                : null}
+                {projectList.liveLink? 
+                    <a href={projectList.liveLink}>|&nbsp;&nbsp;&nbsp;&nbsp;Live</a>
+                : null}
             </div>
             
         </div>

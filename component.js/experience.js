@@ -26,7 +26,7 @@ export default function Experience() {
                         <Techs tech={"Tailwind CSS"} />
                     </div>
                 </div>
-                <div className="flex flex-col md:w-5/12 mx-auto lg:mx-0 w-full lg:w-auto">
+                <div className="flex flex-col md:w-5/12 mx-auto lg:mx-0 w-full lg:w-auto justify-start">
                     <p className="text-base sm:text-lg md:text-xl text-center lg:text-left font-[pT_Serif_Caption]">Khulna-9100, Khulna</p>
                     <p className="text-base sm:text-lg md:text-xl text-center lg:text-left font-[pT_Serif_Caption]">December 2023 – February 2024</p>
                 </div>
