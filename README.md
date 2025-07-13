@@ -8,7 +8,7 @@ This is my **personal portfolio website**, built using **Next.js** and **Tailwin
 
 ## 🌐 Live Site
 
-- 🔗 [https://fardinahsansachi.vercel.app/](https://fardinahsansachi.vercel.app/) *(replace with actual URL if different)*
+🔗 [https://fardinahsansachi.vercel.app/](https://fardinahsansachi.vercel.app/) *(replace with actual URL if different)*
 
 ---
 
