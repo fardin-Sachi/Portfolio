@@ -1,5 +1,5 @@
 import Image from "next/image";
-import dummyImage from "@/public/me.png"
+// import dummyImage from "@/public/me.png"
 import Techs from "./techs";
 
 export default function ProjectCard({projectList}) {
@@ -16,8 +16,12 @@ export default function ProjectCard({projectList}) {
                     // height={500}
                     // width={500}
                     // unoptimized
-                    quality={60}
+                    quality={30}
                     unoptimized={!projectList.imageOptimization}
+                    loading='eager'
+                    // placeholder='blur'
+                    // // blurDataURL={`/_next/image?url=${encodeURIComponent(projectList.image)}&q=1&w=128`}
+                    decoding='sync'
                 />
             </div>
             <div className="flex flex-col gap-y-2 flex-grow">

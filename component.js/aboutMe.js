@@ -18,7 +18,7 @@ export default function AboutMe() {
         <div className="flex justify-center">
             <a 
               target='_blank' 
-              href={"https://drive.google.com/file/d/10xtrxLq_x040WRqJTDnCdbZ5_S8im6Yw/view?usp=sharing"}>
+              href={"https://drive.google.com/file/d/16OtUnClwn8gfM5tSQnIvr3hTpO5dsN8k/view?usp=sharing"}>
                 <div className="shadow-2xl shadow-[#210F37] px-4 py-2 sm:px-6 md:py-3 rounded-xl">
                     <p className="sm:text-base md:text-xl lg:text-2xl font-[pT_Serif_Caption] font-medium"> Here&apos;s My Resume</p>
                 </div>

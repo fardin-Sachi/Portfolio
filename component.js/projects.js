@@ -20,17 +20,6 @@ const projectLists = [
         ]
     },
     {
-        title: "Apartment Hunt",
-        githubLink: "https://github.com/fardin-Sachi/Apartment_Hunt",
-        liveLink: null,
-        image: ApartmentHunt,
-        imageOptimization: false,
-        description: "Engineered a web-based rental platform with Next.js, incorporating advanced search filters and interactive maps, facilitating a faster property discovery process for prospective tenants.",
-        technologies: [
-            "Next.js", "Tailwind CSS"
-        ]
-    },
-    {
         title: "Font Group",
         githubLink: "https://github.com/fardin-Sachi/font-groups",
         liveLink: "https://font-groups.vercel.app/",
@@ -39,6 +28,17 @@ const projectLists = [
         description: "A full-stack web application to upload, group, and manage custom .ttf fonts.",
         technologies: [
             "React", "Node.js", "Express.js", "MongoDB Atlas", "Zustand"
+        ]
+    },
+    {
+        title: "Apartment Hunt",
+        githubLink: "https://github.com/fardin-Sachi/Apartment_Hunt",
+        liveLink: null,
+        image: ApartmentHunt,
+        imageOptimization: false,
+        description: "Engineered a web-based rental platform with Next.js, incorporating advanced search filters and interactive maps, facilitating a faster property discovery process for prospective tenants.",
+        technologies: [
+            "Next.js", "Tailwind CSS"
         ]
     },
     {

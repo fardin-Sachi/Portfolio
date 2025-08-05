@@ -53,7 +53,7 @@ const navItems = [
     {
         id: 8,
         title: "Resume",
-        path: "https://drive.google.com/file/d/10xtrxLq_x040WRqJTDnCdbZ5_S8im6Yw/view?usp=sharing",
+        path: "https://drive.google.com/file/d/16OtUnClwn8gfM5tSQnIvr3hTpO5dsN8k/view?usp=sharing",
     },
 
 ]
