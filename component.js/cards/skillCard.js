@@ -14,6 +14,7 @@ export default function SkillCard( {skillType, logos} ) {
                     height={48}
                     alt={logo.alt}
                     src={logo.name}
+                    quality={50}
                 />
             )}
         </div>

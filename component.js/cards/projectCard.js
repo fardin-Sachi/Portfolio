@@ -16,6 +16,7 @@ export default function ProjectCard({projectList}) {
                     // height={500}
                     // width={500}
                     // unoptimized
+                    quality={60}
                     unoptimized={!projectList.imageOptimization}
                 />
             </div>

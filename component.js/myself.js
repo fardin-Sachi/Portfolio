@@ -58,6 +58,8 @@ export default function Myself() {
                 // w-40 h-40 sm:w-52 sm:h-52 md:2-64 md:h-64 lg:w-80 lg:h-80
                 src={happyMe}
                 alt="Fardin Ahsan"
+                priority
+                quality={80}
             />
         </div>
     </section>
