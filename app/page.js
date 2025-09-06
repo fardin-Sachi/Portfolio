@@ -32,9 +32,3 @@ export default function Home() {
 // edf2f8
 // e4e4e4
 // dee3ed
-
-// Add: Job Title.
-// >> Update: Styles of Titles of a section (Khulna University/Coursera, etc).
-// >> Update: Changed AngularJS to Angular Logo.
-// >> Update: Use cursor-default on the whole website.
-// >> Update: Placed Angular and Spring Boot logo at the first.

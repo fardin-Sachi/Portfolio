@@ -8,8 +8,8 @@ export default function Activities() {
               <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold font-[pT_Serif_Caption]">Activities</p>
           </div>
 
-            {/* CLUSTER */}
             <div className="flex flex-col gap-8">
+                {/* CLUSTER */}
                 <div className="flex flex-col md:flex-row shadow-2xl rounded-2xl py-6 sm:py-8 md:py-10 px-6 sm:px-8 md:px-10 gap-6">
                     <div className="md:w-7/12">
                         <div className="flex flex-col gap-2">
