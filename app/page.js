@@ -11,7 +11,7 @@ import Skills from "@/component.js/skills";
 
 export default function Home() {
   return (
-    <div className="bg-[#dee3ed] cursor-default">
+    <div className="cursor-default">
       <Navbar />
       <Myself />
       <AboutMe />
@@ -31,4 +31,7 @@ export default function Home() {
 // F8F5E9
 // edf2f8
 // e4e4e4
-// dee3ed
+// 
+
+
+// bg-[#dee3ed] //Previous BG color
