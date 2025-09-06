@@ -1,13 +1,13 @@
-import AboutMe from "@/component.js/aboutMe";
-import Activities from "@/component.js/activities";
-import Certifications from "@/component.js/certifications";
-import Education from "@/component.js/education";
-import Experience from "@/component.js/experience";
-import Footer from "@/component.js/footer";
-import Myself from "@/component.js/myself";
-import Navbar from "@/component.js/navbar";
-import Projects from "@/component.js/projects";
-import Skills from "@/component.js/skills";
+import AboutMe from "@/component/aboutMe";
+import Activities from "@/component/activities";
+import Certifications from "@/component/certifications";
+import Education from "@/component/education";
+import Experience from "@/component/experience";
+import Footer from "@/component/footer";
+import Myself from "@/component/myself";
+import Navbar from "@/component/navbar";
+import Projects from "@/component/projects";
+import Skills from "@/component/skills";
 
 export default function Home() {
   return (

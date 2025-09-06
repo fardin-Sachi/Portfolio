@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function AboutMe() {
   return (
-    <section id='about' className='container mx-auto px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20 py-8 sm:py-12 md:py-16 lg:py-20'>
+    <section id="about" className='container mx-auto px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20 py-8 sm:py-12 md:py-16 lg:py-20'>
       <div className="pb-6 sm:pb-10 md:pb-12 hover:scale-115 duration-300">
         <div className='flex justify-center'> 
               <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center font-bold font-[pT_Serif_Caption]">About Me</p>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import dummyImage from "@/public/me.png"
 import Techs from "./techs";
 
 export default function ProjectCard({projectList}) {

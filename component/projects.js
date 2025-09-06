@@ -1,5 +1,4 @@
 import ProjectCard from "./cards/projectCard"
-// import dummyImage from "@/public/me.png"
 import arochiInteriors from "@/public/Projects/Arochi_Interiors.gif"
 import ApartmentHunt from "@/public/Projects/Apartment_Hunt.gif"
 import orbit from "@/public/Projects/Orbit.png"

@@ -27,7 +27,7 @@ export default function Certifications() {
                         </p>
                     </div>
                     
-                    <div className="flex justify-start pt-4 gap-x-3 sm:gap-x-4">
+                    <div className="flex justify-start pt-4 gap-x-3 sm:gap-x-4 gap-y-2">
                         {/* <div className="shadow-2xl shadow-[#210F37] px-4 py-2 rounded-full">
                             <p className="text-sm sm:text-base md:text-lg font-[poppins] font-medium">Git</p>
                         </div> */}
