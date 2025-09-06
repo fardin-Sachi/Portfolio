@@ -10,7 +10,7 @@ export default function Experience() {
             <div className="flex flex-col lg:flex-row shadow-2xl rounded-2xl py-6 sm:py-8 md:py-10 px-4 sm:px-6 md:px-8 lg:px-10 gap-6 lg:gap-10">
                 <div className="lg:w-7/12 pr-0 lg:pr-6">
                     <div className="flex flex-col pb-3 gap-y-2">
-                        <p className="text-2xl sm:text-3xl md:text-4xl font-[pT_Serif_Caption] font-bold ">Appstick</p>
+                        <p className="text-2xl sm:text-3xl md:text-4xl font-[pT_Serif_Caption] font-bold">Appstick</p>
                         <p className="text-xl sm:text-2xl md:text-3xl font-medium font-[pT_Serif_Caption]">Web Developer Intern</p>
                     </div>
                     <div className="flex flex-col pl-0 lg:pl-2 gap-y-3">

@@ -18,8 +18,8 @@ export default function Certifications() {
                         target="_blank" 
                         href={"https://coursera.org/share/bb2b07f687e40f843609ff78b2b48bf8"}
                     >
-                        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold font-[pT_Serif_Caption]">Coursera</p>
-                        <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium font-[pT_Serif_Caption]"> Introduction to Git and GitHub - Google</p>
+                        <p className="text-2xl sm:text-3xl md:text-4xl font-[pT_Serif_Caption] font-bold">Coursera</p>
+                        <p className="text-xl sm:text-2xl md:text-3xl font-medium font-[pT_Serif_Caption]"> Introduction to Git and GitHub - Google</p>
                     </a>
                     <div className="flex flex-col gap-y-3">
                         <p className="text-sm sm:text-base md:text-lg lg:text-xl text-left font-[poppins]">

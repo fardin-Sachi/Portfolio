@@ -39,8 +39,8 @@ export default function Education() {
                 <div className="flex flex-col lg:flex-row shadow-2xl rounded-2xl py-6 sm:py-8 md:py-10 px-6 sm:px-8 md:px-10 gap-4">
                     <div className="lg:w-7/12">
                         <div className="flex flex-col pb-3 gap-y-2">
-                            <p className="text-xl sm:text-2xl md:text-3xl font-bold font-[pT_Serif_Caption]">{institutions[0].name}</p>
-                            <p className="text-lg sm:text-xl md:text-2xl font-medium font-[pT_Serif_Caption]">{institutions[0].degree}</p>
+                            <p className="text-2xl sm:text-3xl md:text-4xl font-[pT_Serif_Caption] font-bold">{institutions[0].name}</p>
+                            <p className="text-xl sm:text-2xl md:text-3xl font-medium font-[pT_Serif_Caption]">{institutions[0].degree}</p>
                         </div>
                         <div className="flex flex-col gap-y-2">
                             <div className="flex">

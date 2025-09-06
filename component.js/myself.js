@@ -4,11 +4,19 @@ import Link from "next/link";
 
 export default function Myself() {
   return (
-    <section className='container mx-auto px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20 py-10 sm:py-15 md:py-20 flex flex-col lg:flex-row justify-between'>
+    <section className='container mx-auto px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20 py-10 sm:py-15 md:py-20 flex flex-col lg:flex-row justify-between cursor-default'>
       {/* Text section */}
-        <div className="flex flex-col justify-center lg:w-1/2">
-            <p className='font-[poppins] text-2xl sm:text-3xl md:text-4xl font-bold pb-4 sm:pb-6'>Hi, this is</p>
+        <div className="flex flex-col justify-center lg:w-1/2 pt-5 sm:pt-10 lg:pt-20">
+            {/* <p className='font-[poppins] text-2xl sm:text-3xl md:text-4xl font-bold pb-4 sm:pb-6'>Hi, this is</p> */}
             <p className='font-[pT_Serif_Caption] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold pb-6 sm:pb-10'>Fardin Ahsan</p>
+            {/* <p className="font-[pT_Serif_Caption] text-xl sm:text-2xl md:text-3xl font-bold">Trainee Software Engineer</p>
+            <p className="font-[pT_Serif_Caption] text-lg sm:text-xl md:text-2xl pb-4 sm:pb-6">Ahsanullah University of Science and Technology</p> */}
+            
+            <p className="text-xl sm:text-2xl md:text-3xl font-[pT_Serif_Caption] font-bold ">ICT Center, Ahsanullah University of Science and Technology</p>
+            <p className="text-lg sm:text-xl md:text-2xl font-medium font-[pT_Serif_Caption] pb-5">Trainee Software Engineer</p>
+
+            
+
             
             <div className="shadow-2xl rounded-2xl p-4 sm:p-6 md:p-8">
               <div className="flex items-center gap-4 pb-4">
@@ -52,7 +60,7 @@ export default function Myself() {
         </div>
 
         {/* My photo */}
-        <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center items-center">
+        <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center items-center xl:pl-25 2xl:pl-60">
             <Image 
                 className="w-52 h-52 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full"
                 // w-40 h-40 sm:w-52 sm:h-52 md:2-64 md:h-64 lg:w-80 lg:h-80

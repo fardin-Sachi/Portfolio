@@ -11,7 +11,7 @@ import Skills from "@/component.js/skills";
 
 export default function Home() {
   return (
-    <div className="bg-[#dee3ed]">
+    <div className="bg-[#dee3ed] cursor-default">
       <Navbar />
       <Myself />
       <AboutMe />
@@ -33,3 +33,8 @@ export default function Home() {
 // e4e4e4
 // dee3ed
 
+// Add: Job Title.
+// >> Update: Styles of Titles of a section (Khulna University/Coursera, etc).
+// >> Update: Changed AngularJS to Angular Logo.
+// >> Update: Use cursor-default on the whole website.
+// >> Update: Placed Angular and Spring Boot logo at the first.

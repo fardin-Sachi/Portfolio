@@ -4,7 +4,6 @@ import java from "@/public/logos/java.svg"
 import javascript from "@/public/logos/javascript.svg"
 import dart from "@/public/logos/dart.svg"
 import react from "@/public/logos/react.svg"
-import angularJs from "@/public/logos/angularjs.svg"
 import nodeJs from "@/public/logos/nodejs.svg"
 import nextJs from "@/public/logos/nextjs.svg"
 import springBoot from "@/public/logos/springBoot.svg"
@@ -18,8 +17,19 @@ import windows from "@/public/logos/windows.svg"
 import linux from "@/public/logos/linux.svg"
 import ubuntu from "@/public/logos/ubuntu.svg"
 import SkillCard from "./cards/skillCard"
+import angular from "@/public/logos/angular.png"
+import mysql from "@/public/logos/mysql.png"
+import oracleDB from "@/public/logos/oracleDB.png"
 
 const logos = [
+    {
+        name: angular,
+        alt: "Angular",
+    },
+    {
+        name: springBoot,
+        alt: "Spring Boot",
+    },
     {
         name: c,
         alt: "C",
@@ -45,10 +55,6 @@ const logos = [
         alt: "React",
     },
     {
-        name: angularJs,
-        alt: "Angular JS",
-    },
-    {
         name: nodeJs,
         alt: "Node.js",
     },
@@ -57,8 +63,12 @@ const logos = [
         alt: "Next.js",
     },
     {
-        name: springBoot,
-        alt: "Spring Boot",
+        name: oracleDB,
+        alt: "OracleDB",
+    },
+    {
+        name: mysql,
+        alt: "MySQL",
     },
     {
         name: mongodb,
@@ -99,7 +109,6 @@ const logos = [
 ]
 
 export default function Skills() {
-    // console.log(logos.find(logo=>logo.name === c))
   return (
     <section 
         id="skills" 
@@ -120,12 +129,12 @@ export default function Skills() {
                 
             <SkillCard 
                 skillType={"Libraries & Frameworks"} 
-                logos={[logos.find(logo=>logo.name === react), logos.find(logo=>logo.name === nextJs), logos.find(logo=>logo.name === nodeJs), logos.find(logo=>logo.name === angularJs), logos.find(logo=>logo.name === springBoot)]}
+                logos={[logos.find(logo=>logo.name === angular), logos.find(logo=>logo.name === springBoot), logos.find(logo=>logo.name === react), logos.find(logo=>logo.name === nextJs), logos.find(logo=>logo.name === nodeJs)]}
             />
 
             <SkillCard 
                 skillType={"Technologies and Databases"} 
-                logos={[logos.find(logo=>logo.name === html), logos.find(logo=>logo.name === tailwind), logos.find(logo=>logo.name === mongodb)]}
+                logos={[logos.find(logo=>logo.name === html), logos.find(logo=>logo.name === tailwind), logos.find(logo=>logo.name === oracleDB), logos.find(logo=>logo.name === mysql), logos.find(logo=>logo.name === mongodb)]}
             />
                 
             <SkillCard 

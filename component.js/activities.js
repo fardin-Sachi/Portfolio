@@ -18,8 +18,8 @@ export default function Activities() {
                                 href="https://www.facebook.com/CLUSTER.KU"
                                 rel="noopener noreferrer"
                             >
-                                <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold font-[pT_Serif_Caption] ">CLUSTER, Khulna University</p>
-                                <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium font-[pT_Serif_Caption]">President</p>
+                                <p className="text-2xl sm:text-3xl md:text-4xl font-[pT_Serif_Caption] font-bold">CLUSTER, Khulna University</p>
+                                <p className="text-xl sm:text-2xl md:text-3xl font-medium font-[pT_Serif_Caption]">President</p>
                             </a>
                         </div>
                         <div className="flex flex-col gap-2">
@@ -44,8 +44,8 @@ export default function Activities() {
                                 href="https://www.facebook.com/groups/90982940236"
                                 rel="noopener noreferrer"
                             >
-                                <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold font-[pT_Serif_Caption]">Badhan, Khulna University</p>
-                                <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium font-[pT_Serif_Caption]">Vice President</p>
+                                <p className="text-2xl sm:text-3xl md:text-4xl font-[pT_Serif_Caption] font-bold">Badhan, Khulna University</p>
+                                <p className="text-xl sm:text-2xl md:text-3xl font-medium font-[pT_Serif_Caption]">Vice President</p>
                             </a>
                         </div>
                         <div className="flex flex-col pl-2">
