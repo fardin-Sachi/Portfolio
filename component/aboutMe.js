@@ -12,7 +12,7 @@ export default function AboutMe() {
       <div className='shadow-2xl rounded-2xl pb-6 sm:pb-8 md:pb-10'>
         <p className='text-justify font-[poppins] px-4 sm:px-8 md:px-12 lg:px-16 xl:px-28 text-base sm:text-lg md:text-xl lg:text-2xl py-4 sm:py-6 md:py-8'>
 
-          I am a Computer Science and Engineering graduate from Khulna University, currently working as a <strong>Software Engineer</strong> at the <strong>ICT Center, Ahsanullah University of Science and Technology (AUST)</strong>. I specialize in developing scalable, high-performance applications using <strong>Angular</strong>, <strong>Spring Boot</strong>, and <strong>Oracle Database</strong>.
+          I am a Computer Science and Engineering graduate from Khulna University, currently working as a <strong>Software Engineer (Intern)</strong> at the <strong>ICT Center, Ahsanullah University of Science and Technology (AUST)</strong>. I specialize in developing scalable, high-performance applications using <strong>Angular</strong>, <strong>Spring Boot</strong>, and <strong>Oracle Database</strong>.
           <br></br>
           <br></br>
           In addition to my professional stack, I have experience with <u><i>React</i></u>, <u><i>Next.js</i></u>, <u><i>Node.js</i></u>, <u><i>Express.js,</i></u> and <u><i>MongoDB</i></u>, which enables me to contribute across the full software development lifecycle. With a background in blockchain research and a strong focus on clean architecture and problem-solving, I am passionate about building secure, efficient, and user-centered software solutions.

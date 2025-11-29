@@ -21,19 +21,15 @@ export default function Experience() {
                 Ahsanullah University of Science and Technology
               </p>
               <p className="text-xl sm:text-2xl md:text-3xl font-medium font-[pT_Serif_Caption]">
-                Trainee Software Engineer
+                Software Engineer (Intern)
               </p>
             </div>
             <div className="flex flex-col pl-0 lg:pl-2 gap-y-3">
               <li className="text-base sm:text-lg md:text-xl text-left font-[poppins]">
-                Maintaining full-stack web applications using Angular and Spring
-                Boot, implementing secure authentication, dynamic data handling,
-                and clean API integration for institutional systems.
+                Contributed to a full‑stack university management system built on a microservices architecture using Angular and Spring Boot, handled clean API integrations and data flows for 6,000+ users.
               </li>
               <li className="text-base sm:text-lg md:text-xl text-left font-[poppins]">
-                Enhanced user experience and system reliability by refining
-                modal-driven workflows, optimizing validation logic, and
-                enforcing file/image upload handling with strict quality checks.
+                Developing Meeting Management System that featurs agenda creation, participant assignment and meeting workflow automation for the whole institution&apos;s different offices/departments/syndicate.
               </li>
             </div>
             <div className="flex flex-wrap justify-start pt-4 gap-x-3 sm:gap-x-4 gap-y-2">
