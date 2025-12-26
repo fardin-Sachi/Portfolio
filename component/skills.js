@@ -20,6 +20,9 @@ import SkillCard from "./cards/skillCard"
 import angular from "@/public/logos/angular.png"
 import mysql from "@/public/logos/mysql.png"
 import oracleDB from "@/public/logos/oracleDB.png"
+import redis from "@/public/logos/redis.svg"
+import socketIo from "@/public/logos/socketIo.svg"
+
 
 const logos = [
     {
@@ -83,6 +86,14 @@ const logos = [
         alt: "Tailwind CSS",
     },
     {
+        name: redis,
+        alt: "Redis",
+    },
+    {
+        name: socketIo,
+        alt: "Socket.io",
+    },
+    {
         name: git,
         alt: "Git",
     },
@@ -129,12 +140,26 @@ export default function Skills() {
                 
             <SkillCard 
                 skillType={"Libraries & Frameworks"} 
-                logos={[logos.find(logo=>logo.name === angular), logos.find(logo=>logo.name === springBoot), logos.find(logo=>logo.name === react), logos.find(logo=>logo.name === nextJs), logos.find(logo=>logo.name === nodeJs)]}
+                logos={[
+                    logos.find(logo=>logo.name === angular), 
+                    logos.find(logo=>logo.name === springBoot), 
+                    logos.find(logo=>logo.name === react), 
+                    logos.find(logo=>logo.name === nextJs), 
+                    logos.find(logo=>logo.name === nodeJs),
+                    logos.find(logo=>logo.name === socketIo),
+                ]}
             />
 
             <SkillCard 
                 skillType={"Technologies and Databases"} 
-                logos={[logos.find(logo=>logo.name === html), logos.find(logo=>logo.name === tailwind), logos.find(logo=>logo.name === oracleDB), logos.find(logo=>logo.name === mysql), logos.find(logo=>logo.name === mongodb)]}
+                logos={[
+                    logos.find(logo=>logo.name === html),
+                    logos.find(logo=>logo.name === tailwind), 
+                    logos.find(logo=>logo.name === oracleDB), 
+                    logos.find(logo=>logo.name === mysql), 
+                    logos.find(logo=>logo.name === mongodb),
+                    logos.find(logo=>logo.name === redis),
+                ]}
             />
                 
             <SkillCard 

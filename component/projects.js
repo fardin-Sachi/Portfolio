@@ -10,7 +10,7 @@ const projectLists = [
     {
         title: "Arochi Interiors",
         githubLink: "https://github.com/fardin-Sachi/Arochi-Interiors",
-        liveLink: "https://arochi-interiors.onrender.com/",
+        liveLink: "https://arochi-interiors.vercel.app/",
         image: arochiInteriors,
         imageOptimization: false,
         description: "Designed a modern and user-friendly landing page with optimized design, focusing on performance and accessibility.",

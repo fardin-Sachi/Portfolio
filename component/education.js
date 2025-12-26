@@ -7,7 +7,7 @@ const institutions = [
         result: "3.45/4.00",
         additionalInfo: {
             thesisTitle: "Blockchain-based Official Document Attestation Network",
-            thesisDesc: "Researched on a blockchain-based system that can eradicate the predicament of counterfeiting official documents along with the attestation system.significantly improving the authentication, authorization, confidentiality, privacy, and ownership in processing and validating official documents."
+            thesisDesc: "Researched on a blockchain-based system that can eradicate the predicament of counterfeiting official documents along with the attestation system which significantly improves the authentication, authorization, confidentiality, privacy and ownership in processing and validating official documents."
         }
     },
     {

@@ -13,7 +13,7 @@ export default function Myself() {
             <p className="font-[pT_Serif_Caption] text-lg sm:text-xl md:text-2xl pb-4 sm:pb-6">Ahsanullah University of Science and Technology</p> */}
             
             <p className="text-xl sm:text-2xl md:text-3xl font-[pT_Serif_Caption] font-bold ">ICT Center, Ahsanullah University of Science and Technology</p>
-            <p className="text-lg sm:text-xl md:text-2xl font-medium font-[pT_Serif_Caption] pb-5">Software Engineer (Intern)</p>
+            <p className="text-lg sm:text-xl md:text-2xl font-medium font-[pT_Serif_Caption] pb-5">Software Engineer Intern</p>
 
             
 
